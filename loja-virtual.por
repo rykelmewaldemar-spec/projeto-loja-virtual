@@ -297,6 +297,35 @@ senao se (opcao_crud == 2)
         escreva("Quantidade inválida ou acima do estoque disponível!\n")
     }
 }
+ } senao {
+         estoque_prod1 = estoque_prod1qtd_carrinho_prod1
+escreva ("   escreva("Quantidade inválida ou acima do estoque disponível!\n")
+         escreva("Quantidade inválida ou acima do estoque disponível!\n")
+    }
+}
+senao se (opcao_crud == 2)
+@@ -202,3 +202,20 @@ senao se (opcao_crud == 2)
+        escreva("Quantidade inválida ou acima do estoque disponível!\n")
+    }
+}
+ Quantidade invalida ou acima do estoque disponível!")
+       }
+     }
+       senao se (opcao_crud)
+     {
+       estoque_prod3 = estoque_prod3 +qtd_carrinho_prod3
+       escreva(Digite a NOVA quantidade total para este item:")
+       leia(quantidade_temp) 
+                              
+       se(quantidade_temp >= 0 e quantidade_temp <= estoque_prod3)
+       qtd_carrinho_prod3 = quantidade_temp
+       estoque_prod3 = estoque_prod3 - quantidade_temp
+       escreva("Quantidade atualizada com sucesso !")
+
+      } senao {
+       estoque_prod3 = estoque_prod3 - qtd_carrinho_prod3
+       escreva("
+
 
 
 
