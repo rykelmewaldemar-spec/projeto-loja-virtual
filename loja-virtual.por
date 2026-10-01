@@ -416,6 +416,26 @@ senao se (opcao_crud == 2)
     1. Pagamento via PIX (10% de desconto)")
     escreva("
     2. Cartão de Credito (Valor normal)")
+         1. Pagamento via PIX (10% de desconto)")
+    escreva("
+    2. Cartão de Credito (Valor normal)")
+    escreva("escolha a forma de pagamento")
+    leia(opcao_pagamento)
+   escolha(opcao_pagamento)
+   {
+        caso 1:
+              valor_desconto= valor_total_bruto*0.10
+              valor_final=valor_total_bruto_valor_desconto
+                pare
+        
+          caso 2:
+              valor_desconto= 0.0
+              valor_final=valor_total_bruto_
+          pare
+          caso contrario:
+                escreva("opacao inavalida processando o valornormal")
+
+
 
 
 
