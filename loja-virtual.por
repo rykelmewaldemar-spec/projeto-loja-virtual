@@ -434,6 +434,29 @@ senao se (opcao_crud == 2)
           pare
           caso contrario:
                 escreva("opacao inavalida processando o valornormal")
+           valor_final=valor_total_bruto_
+          pare
+          caso contrario:
+                escreva("opacao inavalida processando o valornormal")
+         escreva("opacao inavalida processando o valornormal")
+             valor_desconto = 0.0
+             valor_final = valor_total_bruto
+          //pare
+    }
+
+    //3. NOTA FISCAL DETALHADA
+    limpa()
+    escreva("========================================")
+    escreva("NOTA FISCAL - LOJA VIRTUAL")
+    escreva("========================================")
+    escreva("Itens comprados:")
+
+    se (qtd_carrinh_prod1 > 0) {
+      escreva("- ", qtd_carrinh_prod1, "x Camisa Esportiva = R$ ", (qtd_carrinh_prod1))
+
+
+
+
 
 
 
